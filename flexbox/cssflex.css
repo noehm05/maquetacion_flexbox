@@ -1,0 +1,97 @@
+.encabezado {
+  display: flex;              
+  justify-content: space-between;
+  align-items: center;       
+  padding: 10px;
+  background: #ddd;
+}
+.menu {
+  display: flex;
+  gap: 10px;
+  
+}
+.menu a {
+  padding: 8px 12px;
+  background: white;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  display: inline-block; 
+}
+
+.cuadros{
+    display: flex;
+}
+
+.cuadro1{
+    flex: 1;
+   align-items: center;
+   padding: 20px;
+   background-color: beige;
+  border: 1px solid #999;
+  text-align: center;
+}
+
+.hero{
+    display: flexbox;
+    padding: 80px;
+    background-color: aquamarine;
+}
+
+.herocont{
+    padding: 80px;
+    text-align: center;
+    border: 2px;
+    background-color: aquamarine;
+}
+.cards{
+    display: flex;
+ 
+    gap: 20px;
+    background-color: cadetblue;
+    padding-right: 20px;
+    padding: 50px;
+}
+.card{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    border-radius: 10px;
+
+}
+.img {
+  width: 50%;
+  height: 160px;
+  background-color: bisque;
+  margin-bottom: 10px;
+  margin: auto;
+
+}
+.footer {
+  padding: 20px;
+  background: #999;
+  text-align: center;
+}
+
+.arriba {
+  margin-bottom: 20px;
+  
+}
+.arriba input {
+  padding: 5px;
+  width: 500px;
+}
+.arriba button {
+  padding: 5px;
+}
+.abajo {
+  display: flex;
+  gap: 250px;
+}
